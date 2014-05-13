@@ -85,7 +85,6 @@
         <mkdir dir="../android/temp/zip"/>
         <copydir src="../android/temp/zip" dest="../android/temp/classes"/>
 
-        <mkdir dir="../android/temp/zip"/>
         <unzip src="../android/libs/${android.extlibname}" dest="../android/temp/zip"/>
         <copydir src="../android/temp/zip/com" dest="../android/temp/classes/com"/>
 

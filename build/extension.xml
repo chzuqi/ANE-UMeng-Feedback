@@ -20,8 +20,8 @@
     <platform name="Android-ARM"> 
         <applicationDeployment> 
             <nativeLibrary>libUMFeedback.jar</nativeLibrary>
-            <initializer>com.czqsoft.ane.CLogExtension</initializer>
-            <finalizer>com.czqsoft.ane.CLogExtension</finalizer>
+            <initializer>com.czqsoft.ane.UMFeedbackExtension</initializer>
+            <finalizer>com.czqsoft.ane.UMFeedbackExtension</finalizer>
         </applicationDeployment> 
     </platform> 
     
