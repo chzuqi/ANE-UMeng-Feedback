@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6129591C1920C5AB00B1F5E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6129591B1920C5AB00B1F5E9 /* Foundation.framework */; };
+		6129591E1920C5AB00B1F5E9 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6129591D1920C5AB00B1F5E9 /* CoreFoundation.framework */; };
+		612959201920C5AB00B1F5E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6129591F1920C5AB00B1F5E9 /* UIKit.framework */; };
+		612959221920C5AB00B1F5E9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612959211920C5AB00B1F5E9 /* MobileCoreServices.framework */; };
+		612959241920C5AB00B1F5E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612959231920C5AB00B1F5E9 /* CoreGraphics.framework */; };
+		612959261920C5AB00B1F5E9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612959251920C5AB00B1F5E9 /* SystemConfiguration.framework */; };
+		612959281920C5AB00B1F5E9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612959271920C5AB00B1F5E9 /* AudioToolbox.framework */; };
+		6129592A1920C5AB00B1F5E9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612959291920C5AB00B1F5E9 /* CFNetwork.framework */; };
+		6129592C1920C5AB00B1F5E9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6129592B1920C5AB00B1F5E9 /* QuartzCore.framework */; };
+		6129592E1920C5AB00B1F5E9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6129592D1920C5AB00B1F5E9 /* OpenGLES.framework */; };
+		612959301920C5AB00B1F5E9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6129592F1920C5AB00B1F5E9 /* CoreLocation.framework */; };
+		612959321920C5AB00B1F5E9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612959311920C5AB00B1F5E9 /* CoreMedia.framework */; };
+		612959341920C5AB00B1F5E9 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612959331920C5AB00B1F5E9 /* CoreVideo.framework */; };
+		612959361920C5AB00B1F5E9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612959351920C5AB00B1F5E9 /* AVFoundation.framework */; };
+		612959381920C5AB00B1F5E9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612959371920C5AB00B1F5E9 /* Security.framework */; };
+		612959481920C5AB00B1F5E9 /* libUMFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 612959471920C5AB00B1F5E9 /* libUMFeedback.m */; };
+		6129595E1920F8C100B1F5E9 /* libUMFeedback.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6129595C1920F8C100B1F5E9 /* libUMFeedback.a */; };
+		6129595F1920F8C100B1F5E9 /* UMFeedback.h in Headers */ = {isa = PBXBuildFile; fileRef = 6129595D1920F8C100B1F5E9 /* UMFeedback.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		612959181920C5AB00B1F5E9 /* libUMFeedback.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUMFeedback.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6129591B1920C5AB00B1F5E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6129591D1920C5AB00B1F5E9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		6129591F1920C5AB00B1F5E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		612959211920C5AB00B1F5E9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		612959231920C5AB00B1F5E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		612959251920C5AB00B1F5E9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		612959271920C5AB00B1F5E9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		612959291920C5AB00B1F5E9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6129592B1920C5AB00B1F5E9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6129592D1920C5AB00B1F5E9 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		6129592F1920C5AB00B1F5E9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		612959311920C5AB00B1F5E9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		612959331920C5AB00B1F5E9 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		612959351920C5AB00B1F5E9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		612959371920C5AB00B1F5E9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		612959451920C5AB00B1F5E9 /* UMFeedback-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UMFeedback-Prefix.pch"; sourceTree = "<group>"; };
+		612959461920C5AB00B1F5E9 /* libUMFeedback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libUMFeedback.h; sourceTree = "<group>"; };
+		612959471920C5AB00B1F5E9 /* libUMFeedback.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libUMFeedback.m; sourceTree = "<group>"; };
+		612959491920C5AB00B1F5E9 /* extension.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = extension.xml; sourceTree = "<group>"; };
+		6129594A1920C5AB00B1F5E9 /* platformoptions.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = platformoptions.xml; sourceTree = "<group>"; };
+		6129594B1920C5AB00B1F5E9 /* generateANE.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = generateANE.sh; sourceTree = "<group>"; };
+		6129594C1920C5AB00B1F5E9 /* debugIPA.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = debugIPA.sh; sourceTree = "<group>"; };
+		6129595C1920F8C100B1F5E9 /* libUMFeedback.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMFeedback.a; sourceTree = "<group>"; };
+		6129595D1920F8C100B1F5E9 /* UMFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMFeedback.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		612959151920C5AB00B1F5E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612959321920C5AB00B1F5E9 /* CoreMedia.framework in Frameworks */,
+				612959381920C5AB00B1F5E9 /* Security.framework in Frameworks */,
+				6129591E1920C5AB00B1F5E9 /* CoreFoundation.framework in Frameworks */,
+				612959301920C5AB00B1F5E9 /* CoreLocation.framework in Frameworks */,
+				612959221920C5AB00B1F5E9 /* MobileCoreServices.framework in Frameworks */,
+				612959341920C5AB00B1F5E9 /* CoreVideo.framework in Frameworks */,
+				6129592A1920C5AB00B1F5E9 /* CFNetwork.framework in Frameworks */,
+				612959201920C5AB00B1F5E9 /* UIKit.framework in Frameworks */,
+				612959241920C5AB00B1F5E9 /* CoreGraphics.framework in Frameworks */,
+				6129592E1920C5AB00B1F5E9 /* OpenGLES.framework in Frameworks */,
+				612959281920C5AB00B1F5E9 /* AudioToolbox.framework in Frameworks */,
+				612959261920C5AB00B1F5E9 /* SystemConfiguration.framework in Frameworks */,
+				6129595E1920F8C100B1F5E9 /* libUMFeedback.a in Frameworks */,
+				6129591C1920C5AB00B1F5E9 /* Foundation.framework in Frameworks */,
+				612959361920C5AB00B1F5E9 /* AVFoundation.framework in Frameworks */,
+				6129592C1920C5AB00B1F5E9 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6129590F1920C5AB00B1F5E9 = {
+			isa = PBXGroup;
+			children = (
+				612959431920C5AB00B1F5E9 /* UMFeedback */,
+				6129591A1920C5AB00B1F5E9 /* Frameworks */,
+				612959191920C5AB00B1F5E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		612959191920C5AB00B1F5E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				612959181920C5AB00B1F5E9 /* libUMFeedback.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6129591A1920C5AB00B1F5E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6129591B1920C5AB00B1F5E9 /* Foundation.framework */,
+				6129591D1920C5AB00B1F5E9 /* CoreFoundation.framework */,
+				6129591F1920C5AB00B1F5E9 /* UIKit.framework */,
+				612959211920C5AB00B1F5E9 /* MobileCoreServices.framework */,
+				612959231920C5AB00B1F5E9 /* CoreGraphics.framework */,
+				612959251920C5AB00B1F5E9 /* SystemConfiguration.framework */,
+				612959271920C5AB00B1F5E9 /* AudioToolbox.framework */,
+				612959291920C5AB00B1F5E9 /* CFNetwork.framework */,
+				6129592B1920C5AB00B1F5E9 /* QuartzCore.framework */,
+				6129592D1920C5AB00B1F5E9 /* OpenGLES.framework */,
+				6129592F1920C5AB00B1F5E9 /* CoreLocation.framework */,
+				612959311920C5AB00B1F5E9 /* CoreMedia.framework */,
+				612959331920C5AB00B1F5E9 /* CoreVideo.framework */,
+				612959351920C5AB00B1F5E9 /* AVFoundation.framework */,
+				612959371920C5AB00B1F5E9 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		612959431920C5AB00B1F5E9 /* UMFeedback */ = {
+			isa = PBXGroup;
+			children = (
+				6129595C1920F8C100B1F5E9 /* libUMFeedback.a */,
+				6129595D1920F8C100B1F5E9 /* UMFeedback.h */,
+				612959461920C5AB00B1F5E9 /* libUMFeedback.h */,
+				612959471920C5AB00B1F5E9 /* libUMFeedback.m */,
+				612959441920C5AB00B1F5E9 /* Supporting Files */,
+			);
+			path = UMFeedback;
+			sourceTree = "<group>";
+		};
+		612959441920C5AB00B1F5E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				612959451920C5AB00B1F5E9 /* UMFeedback-Prefix.pch */,
+				612959491920C5AB00B1F5E9 /* extension.xml */,
+				6129594A1920C5AB00B1F5E9 /* platformoptions.xml */,
+				6129594B1920C5AB00B1F5E9 /* generateANE.sh */,
+				6129594C1920C5AB00B1F5E9 /* debugIPA.sh */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		612959161920C5AB00B1F5E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6129595F1920F8C100B1F5E9 /* UMFeedback.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		612959171920C5AB00B1F5E9 /* UMFeedback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6129594F1920C5AB00B1F5E9 /* Build configuration list for PBXNativeTarget "UMFeedback" */;
+			buildPhases = (
+				612959141920C5AB00B1F5E9 /* Sources */,
+				612959151920C5AB00B1F5E9 /* Frameworks */,
+				612959161920C5AB00B1F5E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UMFeedback;
+			productName = UMFeedback;
+			productReference = 612959181920C5AB00B1F5E9 /* libUMFeedback.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		612959101920C5AB00B1F5E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 612959131920C5AB00B1F5E9 /* Build configuration list for PBXProject "UMFeedback" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6129590F1920C5AB00B1F5E9;
+			productRefGroup = 612959191920C5AB00B1F5E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				612959171920C5AB00B1F5E9 /* UMFeedback */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		612959141920C5AB00B1F5E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612959481920C5AB00B1F5E9 /* libUMFeedback.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6129594D1920C5AB00B1F5E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = /Users/czq/Downloads/AIR/AIR_4.0/include/;
+			};
+			name = Debug;
+		};
+		6129594E1920C5AB00B1F5E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = /Users/czq/Downloads/AIR/AIR_4.0/include/;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		612959501920C5AB00B1F5E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UMFeedback.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UMFeedback/UMFeedback-Prefix.pch";
+				GCC_VERSION = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/czq/Documents/anes/UMFeedbackANE/UMFeedback_iOS_1.41,
+					/Users/czq/Documents/anes/UMFeedbackANE/ios/UMFeedback/UMFeedback,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		612959511920C5AB00B1F5E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/UMFeedback.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UMFeedback/UMFeedback-Prefix.pch";
+				GCC_VERSION = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/czq/Documents/anes/UMFeedbackANE/UMFeedback_iOS_1.41,
+					/Users/czq/Documents/anes/UMFeedbackANE/ios/UMFeedback/UMFeedback,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		612959131920C5AB00B1F5E9 /* Build configuration list for PBXProject "UMFeedback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6129594D1920C5AB00B1F5E9 /* Debug */,
+				6129594E1920C5AB00B1F5E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6129594F1920C5AB00B1F5E9 /* Build configuration list for PBXNativeTarget "UMFeedback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612959501920C5AB00B1F5E9 /* Debug */,
+				612959511920C5AB00B1F5E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 612959101920C5AB00B1F5E9 /* Project object */;
+}

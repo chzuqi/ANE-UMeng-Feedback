@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'UMFeedback' target in the 'UMFeedback' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

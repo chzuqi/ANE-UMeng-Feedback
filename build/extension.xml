@@ -1,0 +1,32 @@
+<extension xmlns="http://ns.adobe.com/air/extension/3.9">
+  <id>com.czqsoft.umfeedback</id>
+  <versionNumber>1</versionNumber>
+  <platforms>
+    <platform name="iPhone-ARM">
+        <applicationDeployment>
+            <nativeLibrary>libUMFeedback.a</nativeLibrary>
+            <initializer>UMFeedbackExtInitializer</initializer>
+            <finalizer>UMFeedbackExtFinalizer</finalizer>
+        </applicationDeployment>
+    </platform>
+    <platform name="iPhone-x86">
+        <applicationDeployment>
+            <nativeLibrary>libUMFeedback.a</nativeLibrary>
+            <initializer>UMFeedbackExtInitializer</initializer>
+            <finalizer>UMFeedbackExtFinalizer</finalizer>
+        </applicationDeployment>
+    </platform>
+
+    <platform name="Android-ARM"> 
+        <applicationDeployment> 
+            <nativeLibrary>libUMFeedback.jar</nativeLibrary>
+            <initializer>com.czqsoft.ane.CLogExtension</initializer>
+            <finalizer>com.czqsoft.ane.CLogExtension</finalizer>
+        </applicationDeployment> 
+    </platform> 
+    
+    <platform name="default"> 
+        <applicationDeployment/> 
+    </platform> 
+  </platforms>
+</extension>
