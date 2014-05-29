@@ -97,7 +97,6 @@ function submitForm(language) {
     var content = document.getElementById("content").value;
     var age_group = document.getElementById("age_group").value;
     var gender = document.getElementById("gender").value;
-    var rate = document.getElementById("rate").value;
     if (!!age_group) {
         result.age_group = age_group
     }
@@ -121,10 +120,6 @@ function submitForm(language) {
 
     result.remark ={};
     result.contact = {};
-
-    if (!!rate) {
-        result.remark.rate = rate
-    }
 
     if (content.trim().length > 0) {
         result.content = content.trim();

@@ -23,7 +23,6 @@
 		612959361920C5AB00B1F5E9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612959351920C5AB00B1F5E9 /* AVFoundation.framework */; };
 		612959381920C5AB00B1F5E9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612959371920C5AB00B1F5E9 /* Security.framework */; };
 		612959481920C5AB00B1F5E9 /* libUMFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 612959471920C5AB00B1F5E9 /* libUMFeedback.m */; };
-		6129595E1920F8C100B1F5E9 /* libUMFeedback.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6129595C1920F8C100B1F5E9 /* libUMFeedback.a */; };
 		6129595F1920F8C100B1F5E9 /* UMFeedback.h in Headers */ = {isa = PBXBuildFile; fileRef = 6129595D1920F8C100B1F5E9 /* UMFeedback.h */; };
 /* End PBXBuildFile section */
 
@@ -47,10 +46,6 @@
 		612959451920C5AB00B1F5E9 /* UMFeedback-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UMFeedback-Prefix.pch"; sourceTree = "<group>"; };
 		612959461920C5AB00B1F5E9 /* libUMFeedback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libUMFeedback.h; sourceTree = "<group>"; };
 		612959471920C5AB00B1F5E9 /* libUMFeedback.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libUMFeedback.m; sourceTree = "<group>"; };
-		612959491920C5AB00B1F5E9 /* extension.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = extension.xml; sourceTree = "<group>"; };
-		6129594A1920C5AB00B1F5E9 /* platformoptions.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = platformoptions.xml; sourceTree = "<group>"; };
-		6129594B1920C5AB00B1F5E9 /* generateANE.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = generateANE.sh; sourceTree = "<group>"; };
-		6129594C1920C5AB00B1F5E9 /* debugIPA.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = debugIPA.sh; sourceTree = "<group>"; };
 		6129595C1920F8C100B1F5E9 /* libUMFeedback.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMFeedback.a; sourceTree = "<group>"; };
 		6129595D1920F8C100B1F5E9 /* UMFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMFeedback.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,7 +67,6 @@
 				6129592E1920C5AB00B1F5E9 /* OpenGLES.framework in Frameworks */,
 				612959281920C5AB00B1F5E9 /* AudioToolbox.framework in Frameworks */,
 				612959261920C5AB00B1F5E9 /* SystemConfiguration.framework in Frameworks */,
-				6129595E1920F8C100B1F5E9 /* libUMFeedback.a in Frameworks */,
 				6129591C1920C5AB00B1F5E9 /* Foundation.framework in Frameworks */,
 				612959361920C5AB00B1F5E9 /* AVFoundation.framework in Frameworks */,
 				6129592C1920C5AB00B1F5E9 /* QuartzCore.framework in Frameworks */,
@@ -137,10 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				612959451920C5AB00B1F5E9 /* UMFeedback-Prefix.pch */,
-				612959491920C5AB00B1F5E9 /* extension.xml */,
-				6129594A1920C5AB00B1F5E9 /* platformoptions.xml */,
-				6129594B1920C5AB00B1F5E9 /* generateANE.sh */,
-				6129594C1920C5AB00B1F5E9 /* debugIPA.sh */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -237,7 +227,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = /Users/czq/Downloads/AIR/AIR_4.0/include/;
+				USER_HEADER_SEARCH_PATHS = /Users/czq/Downloads/AIR/AIR_13.0/include/;
 			};
 			name = Debug;
 		};
@@ -258,7 +248,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = /Users/czq/Downloads/AIR/AIR_4.0/include/;
+				USER_HEADER_SEARCH_PATHS = /Users/czq/Downloads/AIR/AIR_13.0/include/;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -275,6 +265,7 @@
 					"$(inherited)",
 					/Users/czq/Documents/anes/UMFeedbackANE/UMFeedback_iOS_1.41,
 					/Users/czq/Documents/anes/UMFeedbackANE/ios/UMFeedback/UMFeedback,
+					"/Users/czq/Documents/anes/ANE-UMeng-Feedback/ios/UMFeedback/UMFeedback",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -294,6 +285,7 @@
 					"$(inherited)",
 					/Users/czq/Documents/anes/UMFeedbackANE/UMFeedback_iOS_1.41,
 					/Users/czq/Documents/anes/UMFeedbackANE/ios/UMFeedback/UMFeedback,
+					"/Users/czq/Documents/anes/ANE-UMeng-Feedback/ios/UMFeedback/UMFeedback",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -320,6 +312,7 @@
 				612959511920C5AB00B1F5E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
