@@ -22,7 +22,7 @@ UMFeedback.open(“你的”APPKEY”);
 ```
 <activity android:name="com.umeng.fb.ConversationActivity"
          android:theme="@android:style/Theme.NoTitleBar"/>
-        <activity android:name="com.umeng.fb.ContactActivity"
+<activity android:name="com.umeng.fb.ContactActivity"
          android:theme="@android:style/Theme.NoTitleBar"/>
 <meta-data android:value="YOUR_APP_KEY" android:name="UMENG_APPKEY"></meta-data>
 <meta-data android:value="Channel ID" android:name="UMENG_CHANNEL"/>
