@@ -27,7 +27,9 @@ UMFeedback.open(“你的”APPKEY”);
 <meta-data android:value="YOUR_APP_KEY" android:name="UMENG_APPKEY"></meta-data>
 <meta-data android:value="Channel ID" android:name="UMENG_CHANNEL"/>
 ```
-ps:感谢小四同学辅助安卓测试
+
+ps:感谢小四同学辅助安卓测试  
+
 ==========
 2014 CZQ
 ==========
